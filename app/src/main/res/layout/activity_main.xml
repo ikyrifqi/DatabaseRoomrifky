@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gambar"
+    android:gravity="center">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/fredoka_one"
+            android:text="Insert Data Kamu"
+            android:textAlignment="center"
+            android:textColor="#ffff"
+            android:textSize="30sp" />
+
+        <EditText
+            android:background="@drawable/kolom"
+            android:layout_width="293dp"
+            android:layout_height="52dp"
+            android:id="@+id/nama"
+            android:hint="Nama Kamu"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp"
+            android:textSize="20sp" />
+
+
+        <EditText
+            android:background="@drawable/kolom"
+            android:layout_width="293dp"
+            android:layout_height="52dp"
+            android:id="@+id/alamat"
+            android:hint="Alamat Kamu"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"/>
+
+        <Button
+            android:background="@drawable/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:id="@+id/button"
+            android:onClick="insertBtn"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Hasil Tampilan"
+            android:typeface="serif"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/fredoka_one"
+            android:layout_gravity="center"
+            android:id="@+id/tampilan"/>
+    </LinearLayout>
+
+</LinearLayout>
