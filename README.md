@@ -1,2 +1,3 @@
-<h1>Bahar Yusuf Zakaria<h1>
-<h2>183140714111018(TI-M4A)<h2>
+<h2>Nama : Hidananta Rifqi Anugrah<h2>
+<h2>Nim :183140714111004<h2>
+<h2>Kelas : TI Software M4A<h2>
